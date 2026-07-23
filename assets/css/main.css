@@ -1810,7 +1810,12 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
-
+/* Clean list*/
+	.clean-list {
+  		list-style-type: none; /* Removes the bullets */
+  		padding: 0;            /* Removes the default left indentation */
+  		margin: 0;             /* Removes default spacing around the list */
+	}
 /* Icons */
 
 	ul.icons {
